@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1c8adb;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 320px;
+    min-height: 300px;
+    width: 40%;
+    height: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1c8adb;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fullname{
+    padding: 10px;
+}
+#fullname{
+    padding: 8px;
+    border: 1px solid #1c8adb;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.new_user{
+    padding: 10px;
+}
+#new_user{
+    padding: 8px;
+    border: 1px solid #1c8adb;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.new_password{
+    padding: 10px;
+}
+#new_password{
+    padding: 8px;
+    border: 1px solid #1c8adb;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.button{
+    padding: 10px;
+}
+#btn_register{
+    padding: 8px;
+    border: 2px solid #1c8adb;
+    border-radius: 10px;
+    background-color: #1c8adb;
+    color: #fff;
+    cursor: pointer;
+}
+#btn_register:hover{
+    background-color: #fff;
+    color: #1c8adb;
+    transition: 0.25s;
+    box-shadow: 0 0 7px #1c8adb;
+}
+.register{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}

@@ -13,13 +13,13 @@ body{
     left: 50%;
     min-width: 320px;
     min-height: 230px;
-    width: 30%;
-    height: 30%;
+    width: 38%;
+    height: 35%;
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
 .container h1{
@@ -55,7 +55,7 @@ form{
 .button{
     padding: 10px;
 }
-#button{
+#btn_login{
     padding: 8px;
     border: 2px solid #1c8adb;
     border-radius: 10px;
@@ -63,7 +63,7 @@ form{
     color: #fff;
     cursor: pointer;
 }
-#button:hover{
+#btn_login:hover{
     background-color: #fff;
     color: #1c8adb;
     transition: 0.25s;
