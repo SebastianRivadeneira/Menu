@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesModificador.css">
-    <title>MenuExpress</title>
+  <title>Modificador</title>
+  <style>
+    /* Estilos CSS */
+    /* Agrega tus estilos personalizados aquí */
+  </style>
 </head>
 <body>
-    
+  <h1>Modificador</h1>
 
+  <label for="tipo">Tipo:</label>
+  <select id="tipo">
+    <option value="entradas">Entradas</option>
+    <option value="proteina">Proteína</option>
+    <option value="bebidas">Bebidas</option>
+    <option value="postres">Postres</option>
+    <option value="otros">Otros</option>
+    <option value="principio">Principio</option>
+  </select>
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre">
+
+  <label for="precio">Precio:</label>
+  <input type="text" id="precio">
+
+  <label for="imagen">Imagen:</label>
+  <input type="file" id="imagen">
+
+  <button onclick="agregarObjeto()">Agregar</button>
+
+  <div id="contador"></div>
+
+<script src="modificador.js"></script>
 </body>
 </html>
